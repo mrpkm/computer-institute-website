@@ -1,13 +1,10 @@
-// import './App.scss';
-import './apps.css';
-import Navbar from './component/navbar/Navbar';
-
+import './index.scss'
+import Routers from './Routes';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Routers />
     </div>
   );
 }
-
 export default App;
